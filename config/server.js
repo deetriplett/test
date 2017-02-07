@@ -1,7 +1,7 @@
 // src/server.js
 const express    = require('express');
 const config     = require('./config');
-const router     = require('./routes');
+//const router     = require('./routes');
 const bodyParser = require('body-parser');
 const path       = require('path');
 
