@@ -24,8 +24,8 @@ app.listen(config.port, function() {
 // const http = require('http');
 // http.createServer(function (req, res) {
 //   homeRoute(req, res);
-// }).listen(8080);
-// console.log('server listening on port: 8080');
+}).listen(8080);
+console.log('server listening on port: 8080');
 
 //HTTP route GET/ and POST/ ie Home
 // function homeRoute(req, res) {
