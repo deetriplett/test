@@ -19,20 +19,20 @@ app.listen(config.port, function() {
 });
 
 
-//create web server
+// //create web server
 
-// const http = require('http');
-// http.createServer(function (req, res) {
-//   homeRoute(req, res);
-}).listen(8080);
-console.log('server listening on port: 8080');
+// // const http = require('http');
+// // http.createServer(function (req, res) {
+// //   homeRoute(req, res);
+// }).listen(8080);
+// console.log('server listening on port: 8080');
 
-//HTTP route GET/ and POST/ ie Home
-// function homeRoute(req, res) {
-//   if (req.url === "/") {
-//     res.writeHead(200, {'Content-Type': 'text/plain'});
-//     res.write("header\n");
-//     res.write("Search\n");
-//     res.end('footer\n');
-//     }
-//   }
+// //HTTP route GET/ and POST/ ie Home
+// // function homeRoute(req, res) {
+// //   if (req.url === "/") {
+// //     res.writeHead(200, {'Content-Type': 'text/plain'});
+// //     res.write("header\n");
+// //     res.write("Search\n");
+// //     res.end('footer\n');
+// //     }
+// //   }
