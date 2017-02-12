@@ -1,9 +1,9 @@
 // src/server.js
-const express    = require('express')
-const config     = require('./config';
+const express    = require('express');
+const config     = require('./config');
 //const router     = require('./routes');
-const bodyParser = require('body-parer');
-const path       = require('path')
+const bodyParser = require('body-parser');
+const path       = require('path');
 
 const app = express();
 app.use(bodyParser.json()); // for parsing application/json
